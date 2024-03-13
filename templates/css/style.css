@@ -1,0 +1,63 @@
+body {
+    background-color: #101c27;
+    color: #333;
+}
+
+/* Gaya navigasi */
+.navbar {
+    background-color: #e3f2fd;
+    font-weight: bold;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.form-control {
+    border-radius: 0;
+}
+
+.btn-outline-success {
+    border-color: #28a745;
+    color: #28a745;
+}
+
+/* Gaya judul */
+h1 {
+    color: #333;
+}
+
+/* Gaya subjudul */
+h2 {
+    color: #555;
+}
+
+/* Gaya kartu */
+.card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-top: 20px;
+}
+
+/* Gaya tabel */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #f8f9fa;
+}
+
+/* Gaya gambar */
+img {
+    max-width: 100px;
+    height: auto;
+}
