@@ -9,8 +9,6 @@ Library Used
 7. Kubernetes (kubectl): Container orchestration platform for deploying and managing containerized applications.
 8. Zabbix: Open-source monitoring solution for tracking and visualizing system performance. 
 
-
-Guidance for MacOS / Intel 
 Features Implemented:
 1. List Pokemon Endpoint (/pokemon):
    - Retrieve a list of Pokemon.
