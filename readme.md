@@ -13,24 +13,24 @@ Library Used
 Guidance for MacOS / Intel 
 Features Implemented:
 1. List Pokemon Endpoint (/pokemon):
-    - Retrieve a list of Pokemon.
+   - Retrieve a list of Pokemon.
 2. Filter Pokemon Endpoint (/pokemon/category/{category}):
-    - Filter Pokemon by category (e.g., water, fire, neutral).
+   - Filter Pokemon by category (e.g., water, fire, neutral).
 3. Detail Pokemon Endpoint (/pokemon/{name}):
-    - View details of a specific Pokemon.
+   - View details of a specific Pokemon.
 4. Review Pokemon Endpoint (/pokemon/review/{name}):
-    - Submit anonymous reviews for Pokemon (recording user IP and user agent).
+   - Submit anonymous reviews for Pokemon (recording user IP and user agent).
 5. Unit Testing with Pytest:
-    - Implemented unit tests to ensure the correctness of API endpoints.
+   - Implemented unit tests to ensure the correctness of API endpoints.
 6. Docker Containerization:
-    - Dockerfile created for building a Docker image of the 7.Flask application.
+   - Dockerfile created for building a Docker image of the 7.Flask application.
 7. CI/CD with GitHub Actions:
-    - Automated CI/CD pipeline using GitHub Actions to build push Docker image, and deploy to Kubernetes.
+   - Automated CI/CD pipeline using GitHub Actions to build push Docker image, and deploy to Kubernetes.
 8. Kubernetes Deployment (kubernetes/):
-    - Kubernetes manifests for deploying the Flask application.
+   - Kubernetes manifests for deploying the Flask application.
 9. Monitoring with Zabbix:
-    - Integration of Zabbix for monitoring system health.
+   - Integration of Zabbix for monitoring system health.
 10. Postman Testing (postman/):
-    - Provided Postman collection for testing API endpoints.
+   - Provided Postman collection for testing API endpoints.
 11. README Documentation:
-    - Comprehensive README.md file with installation, usage, and development information.
+   - Comprehensive README.md file with installation, usage, and development information.
