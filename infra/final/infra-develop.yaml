@@ -1,0 +1,63 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: maulanabn-miniproject
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: pokemagrib-svc
+  namespace: maulanabn-miniproject
+spec:
+  ports:
+  - port: 80
+    targetPort: 5001
+  selector:
+    app: pokemagrib
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: flask-magrib
+  namespace: maulanabn-miniproject
+spec:
+  selector:
+    matchLabels:
+      app: pokemagrib
+  template:
+    metadata:
+      labels:
+        app: pokemagrib
+    spec:
+      containers:
+      - image: maulanabn/miniproject:latest
+        imagePullPolicy: Always
+        name: pokemagrib
+        ports:
+        - containerPort: 5001
+        resources:
+          limits:
+            cpu: 500m
+            memory: 500Mi
+          requests:
+            cpu: 1m
+            memory: 1Mi
+---
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: pokemagrib-ingress
+  namespace: maulanabn-miniproject
+spec:
+  ingressClassName: nginx
+  rules:
+  - host: pokemagrib.shamirhusein.my.id
+    http:
+      paths:
+      - backend:
+          service:
+            name: pokemagrib-svc
+            port:
+              number: 80
+        path: /
+        pathType: Prefix

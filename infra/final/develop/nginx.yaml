@@ -1,7 +1,7 @@
 apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
-  name: game2048-ingress
+  name: pokemagrib-ingress
 spec:
   rules:
   - host: pokemagrib.shamirhusein.my.id
@@ -11,7 +11,7 @@ spec:
         pathType: Prefix
         backend:
           service:
-            name: game2048-svc
+            name: pokemagrib-svc  
             port: 
               number: 80
   ingressClassName: nginx
