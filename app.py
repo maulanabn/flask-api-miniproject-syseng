@@ -191,4 +191,8 @@ def filter_by_type(type_name):
 #         return f"Error fetching Pokémon data: {str(e)}"
     
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(
+        host="0.0.0.0",
+        debug=True,
+        port=5001,
+    )
