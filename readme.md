@@ -1,28 +1,36 @@
-# Requirements 
-1. Wajib Python 3 
-2. Wajib VENV 
+# Library and Additional Features
+Library Used
+1. Flask: A micro web framework for Python.
+2. SQLAlchemy: SQL toolkit and Object-Relational Mapping (ORM) for Python.
+3. Requests: Simplifies HTTP requests to external resources.
+4. Pytest: Testing framework for writing and executing unit tests.
+5. Docker: Containerization platform to package applications and their dependencies.
+6. GitHub Actions: CI/CD platform for automating workflows.
+7. Kubernetes (kubectl): Container orchestration platform for deploying and managing containerized applications.
+8. Zabbix: Open-source monitoring solution for tracking and visualizing system performance. 
 
 
 Guidance for MacOS / Intel 
-1. source '/home/rani/Documents/code/project-zusammen/flask-template-venv/venv_flask/bin/activate'
-2. pip install flask 
-3. pip install flask-restful
-4. pip install Flask-SQLAlchemy
-5. pip install Flask-Migrate
-6. pip install requests
-7. pip install python-dotenv
-8. pip install flask-cors
-9. pip install flask-sieve
-10. pip install pymysql
-
-Source : 
-1. Venv -> https://docs.python.org/3/library/venv.html
-2. Flask Web Site -> https://flask.palletsprojects.com/en/3.0.x/
-3. Flask Restful -> https://flask-restful.readthedocs.io/en/latest/
-4. Flask SQLAlchemy -> https://flask-sqlalchemy.palletsprojects.com/en/3.1.x/
-5. Flask Migrate -> https://flask-migrate.readthedocs.io/en/latest/index.html
-6. Python Requests -> https://docs.python-requests.org/en/latest/index.html
-7. Python DotEnv -> https://pypi.org/project/python-dotenv/
-8. Flask Cors -> https://flask-cors.corydolphin.com/en/latest/index.html
-9. Flask Sieve -> https://github.com/codingedward/flask-sieve
-10. PyMysql ->  https://pypi.org/project/pymysql/
+Features Implemented:
+1. List Pokemon Endpoint (/pokemon):
+    - Retrieve a list of Pokemon.
+2. Filter Pokemon Endpoint (/pokemon/category/{category}):
+    - Filter Pokemon by category (e.g., water, fire, neutral).
+3. Detail Pokemon Endpoint (/pokemon/{name}):
+    - View details of a specific Pokemon.
+4. Review Pokemon Endpoint (/pokemon/review/{name}):
+    - Submit anonymous reviews for Pokemon (recording user IP and user agent).
+5. Unit Testing with Pytest:
+    - Implemented unit tests to ensure the correctness of API endpoints.
+6. Docker Containerization:
+    - Dockerfile created for building a Docker image of the 7.Flask application.
+7. CI/CD with GitHub Actions:
+    - Automated CI/CD pipeline using GitHub Actions to build push Docker image, and deploy to Kubernetes.
+8. Kubernetes Deployment (kubernetes/):
+    - Kubernetes manifests for deploying the Flask application.
+9. Monitoring with Zabbix:
+    - Integration of Zabbix for monitoring system health.
+10. Postman Testing (postman/):
+    - Provided Postman collection for testing API endpoints.
+11. README Documentation:
+    - Comprehensive README.md file with installation, usage, and development information.
