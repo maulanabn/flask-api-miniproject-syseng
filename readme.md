@@ -14,20 +14,20 @@ Mini Project Team :
 5. Scenario
    A Pokemon enthusiast has requested you to create a REST API where users can view a list of Pokemon, filter them by category (water, fire, neutral, etc.), view details of a selected Pokemon (e.g., details of Charizard), and provide anonymous reviews for a chosen Pokemon (record user IP and user agent).
 6. Project Details
-1) Unit Tests
+   - Unit Tests
    Implemented comprehensive unit tests to ensure the reliability of the application.
-2) Dockerfile
+   - Dockerfile
    Created a Dockerfile for containerizing the application.
-3) CI/CD with GitHub Actions
+   - CI/CD with GitHub Actions
    Configured GitHub Actions for continuous integration and continuous deployment.
    Automated the build process, testing, and deployment to Kubernetes.
-4) Kubernetes
+   - Kubernetes
    Deployed the application on Kubernetes for scalability and ease of management.
-5) Monitoring Tools (APM)
+   - Monitoring Tools (APM)
    Integrated APM tools for monitoring the application's performance.
-6) Postman Testing
+   - Postman Testing
    Connected the application to the internet for testing via Postman.
-7) Zabbix
+   - Zabbix
    Utilized Zabbix for monitoring various aspects of the application
 7. Documentation
    - List of Libraries Used
