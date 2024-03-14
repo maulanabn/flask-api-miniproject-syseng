@@ -25,7 +25,7 @@ Mini Project Team :
    - List of Libraries Used
    Listed below are the key libraries used in the project:
       - Flask: Web framework for Python
-      - SQLalchemy: SQL toolkit and Object-Relational Mapping (ORM) library
+      - SQLalchemy: SQL toolkit 
       - Docker: Containerization platform
       - GitHub Actions: CI/CD automation
       - Kubernetes: Container orchestration
