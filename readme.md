@@ -1,10 +1,5 @@
 Mini Project of System Engineering - Application Development Report
 Mini Project Team :
-
-Planning and presentation document 
-a. https://bit.ly/PlanningProgress
-
-
 - Baharuddin Nur Maulana
 - Gahri Rafli
 1. GitHub Repository
@@ -12,13 +7,17 @@ a. https://bit.ly/PlanningProgress
 2. IP Host Kubernetes
    http://pokemagrib.shamirhusein.my.id/
    IP : 157.230.195.204
-3. Topic
+3. Planning and presentation document 
+   https://bit.ly/PlanningProgress
+4. Power point presentation
+   https://bit.ly/PresentationMinPro 
+5. Topic
    Python – Flask, SQL, Docker, Monitoring Tools and Logging, CI/CD, Kubernetes, and Kobe YAML (Kontainerisasi)
-4. Documentation API
+6. Documentation API
    https://pokeapi.co
-5. Scenario
+7. Scenario
    A Pokemon enthusiast has requested you to create a REST API where users can view a list of Pokemon, filter them by category (water, fire, neutral, etc.), view details of a selected Pokemon (e.g., details of Charizard), and provide anonymous reviews for a chosen Pokemon (record user IP and user agent).
-6. Project Details
+8. Project Details
    - Dockerfile
       - Created a Dockerfile for containerizing the application.
    - CI/CD with GitHub Actions
@@ -30,7 +29,7 @@ a. https://bit.ly/PlanningProgress
    - Zabbix
       - Utilized Zabbix for monitoring various aspects of the application.
 
-7. Documentation
+9. Documentation
    - List of Libraries Used
    Listed below are the key libraries used in the project:
       - Flask: Web framework for Python
@@ -46,5 +45,5 @@ a. https://bit.ly/PlanningProgress
       - Docker containerization for portability
       - CI/CD pipeline for automated deployment
       - Monitoring tools for performance tracking
-8. Conclusion
+10. Conclusion
    The mini project successfully implemented the requested features, ensuring reliability, scalability, and ease of deployment. The documentation provides a comprehensive    overview of the project, its libraries, and additional features
