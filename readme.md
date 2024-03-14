@@ -1,34 +1,52 @@
-# Library and Additional Features
-Library Used
-1. Flask: A micro web framework for Python.
-2. SQLAlchemy: SQL toolkit and Object-Relational Mapping (ORM) for Python.
-3. Requests: Simplifies HTTP requests to external resources.
-4. Pytest: Testing framework for writing and executing unit tests.
-5. Docker: Containerization platform to package applications and their dependencies.
-6. GitHub Actions: CI/CD platform for automating workflows.
-7. Kubernetes (kubectl): Container orchestration platform for deploying and managing containerized applications.
-8. Zabbix: Open-source monitoring solution for tracking and visualizing system performance. 
+Mini Project of System Engineering - Application Development Report
+Mini Project Team :
+- Baharuddin Nur Maulana
+- Gahri Rafli
+1. GitHub Repository
+   https://github.com/maulanabn/flask-api-miniproject-syseng
+2. IP Host Kubernetes
+   http://pokemagrib.shamirhusein.my.id/
+   IP : 157.230.195.204
+3. Topic
+   Python – Flask, SQL, Docker, Monitoring Tools and Logging, CI/CD, Kubernetes, and Kobe YAML (Kontainerisasi)
+4. Documentation API
+   https://pokeapi.co
+5. Scenario
+   A Pokemon enthusiast has requested you to create a REST API where users can view a list of Pokemon, filter them by category (water, fire, neutral, etc.), view details of a selected Pokemon (e.g., details of Charizard), and provide anonymous reviews for a chosen Pokemon (record user IP and user agent).
+6. Project Details
+1) Unit Tests
+   Implemented comprehensive unit tests to ensure the reliability of the application.
+2) Dockerfile
+   Created a Dockerfile for containerizing the application.
+3) CI/CD with GitHub Actions
+   Configured GitHub Actions for continuous integration and continuous deployment.
+   Automated the build process, testing, and deployment to Kubernetes.
+4) Kubernetes
+   Deployed the application on Kubernetes for scalability and ease of management.
+5) Monitoring Tools (APM)
+   Integrated APM tools for monitoring the application's performance.
+6) Postman Testing
+   Connected the application to the internet for testing via Postman.
+7) Zabbix
+   Utilized Zabbix for monitoring various aspects of the application
+7. Documentation
+   - List of Libraries Used
+   Listed below are the key libraries used in the project:
+   a. Flask: Web framework for Python
+   b. SQLalchemy: SQL toolkit and Object-Relational Mapping (ORM) library
+   c. Docker: Containerization platform
+   d. GitHub Actions: CI/CD automation
+   e. Kubernetes: Container orchestration
+   f. Zabbix: Monitoring tool
+- Additional Features
+   a. Anonymous review system with IP and user agent recording
+   b. Detailed Pokemon information including categories (water, fire, neutral, etc.)
+   c. Comprehensive unit tests for robustness
+   d. Docker containerization for portability
+   e. CI/CD pipeline for automated deployment
+   f. Monitoring tools for performance tracking
+8. Conclusion
+   The mini project successfully implemented the requested features, ensuring reliability, scalability, and ease of deployment. The documentation provides a comprehensive    overview of the project, its libraries, and additional features
 
-Features Implemented:
-1. List Pokemon Endpoint (/pokemon):
-   - Retrieve a list of Pokemon.
-2. Filter Pokemon Endpoint (/pokemon/category/{category}):
-   - Filter Pokemon by category (e.g., water, fire, neutral).
-3. Detail Pokemon Endpoint (/pokemon/{name}):
-   - View details of a specific Pokemon.
-4. Review Pokemon Endpoint (/pokemon/review/{name}):
-   - Submit anonymous reviews for Pokemon (recording user IP and user agent).
-5. Unit Testing with Pytest:
-   - Implemented unit tests to ensure the correctness of API endpoints.
-6. Docker Containerization:
-   - Dockerfile created for building a Docker image of the 7.Flask application.
-7. CI/CD with GitHub Actions:
-   - Automated CI/CD pipeline using GitHub Actions to build push Docker image, and deploy to Kubernetes.
-8. Kubernetes Deployment (kubernetes/):
-   - Kubernetes manifests for deploying the Flask application.
-9. Monitoring with Zabbix:
-   - Integration of Zabbix for monitoring system health.
-10. Postman Testing (postman/):
-   - Provided Postman collection for testing API endpoints.
-11. README Documentation:
-   - Comprehensive README.md file with installation, usage, and development information.
+
+
