@@ -24,19 +24,19 @@ Mini Project Team :
 7. Documentation
    - List of Libraries Used
    Listed below are the key libraries used in the project:
-   a. Flask: Web framework for Python
-   b. SQLalchemy: SQL toolkit and Object-Relational Mapping (ORM) library
-   c. Docker: Containerization platform
-   d. GitHub Actions: CI/CD automation
-   e. Kubernetes: Container orchestration
-   f. Zabbix: Monitoring tool
+      - Flask: Web framework for Python
+      - SQLalchemy: SQL toolkit and Object-Relational Mapping (ORM) library
+      - Docker: Containerization platform
+      - GitHub Actions: CI/CD automation
+      - Kubernetes: Container orchestration
+      - Zabbix: Monitoring tool
    - Additional Features
-   a. Anonymous review system with IP and user agent recording
-   b. Detailed Pokemon information including categories (water, fire, neutral, etc.)
-   c. Comprehensive unit tests for robustness
-   d. Docker containerization for portability
-   e. CI/CD pipeline for automated deployment
-   f. Monitoring tools for performance tracking
+      - Anonymous review system with IP and user agent recording
+      - Detailed Pokemon information including categories (water, fire, neutral, etc.)
+      - Comprehensive unit tests for robustness
+      - Docker containerization for portability
+      - CI/CD pipeline for automated deployment
+      - Monitoring tools for performance tracking
 8. Conclusion
    The mini project successfully implemented the requested features, ensuring reliability, scalability, and ease of deployment. The documentation provides a comprehensive    overview of the project, its libraries, and additional features
 
