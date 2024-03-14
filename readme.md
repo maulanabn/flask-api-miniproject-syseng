@@ -15,16 +15,15 @@ Mini Project Team :
    A Pokemon enthusiast has requested you to create a REST API where users can view a list of Pokemon, filter them by category (water, fire, neutral, etc.), view details of a selected Pokemon (e.g., details of Charizard), and provide anonymous reviews for a chosen Pokemon (record user IP and user agent).
 6. Project Details
    - Dockerfile
-   Created a Dockerfile for containerizing the application.
+      - Created a Dockerfile for containerizing the application.
    - CI/CD with GitHub Actions
-   Configured GitHub Actions for continuous integration and continuous deployment.
-   Automated the build process, testing, and deployment to Kubernetes.
+      - Configured GitHub Actions for continuous integration and continuous deployment.Automated the build process, testing, and deployment to Kubernetes.
    - Kubernetes
-   Deployed the application on Kubernetes for scalability and ease of management.
+      - Deployed the application on Kubernetes for scalability and ease of management.
    - Postman Testing
-   Connected the application to the internet for testing via Postman.
+      - Connected the application to the internet for testing via Postman.
    - Zabbix
-   Utilized Zabbix for monitoring various aspects of the application.
+      - Utilized Zabbix for monitoring various aspects of the application.
 
 7. Documentation
    - List of Libraries Used
