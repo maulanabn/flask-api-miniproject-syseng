@@ -1,5 +1,10 @@
 Mini Project of System Engineering - Application Development Report
 Mini Project Team :
+
+Planning and presentation document 
+a. https://bit.ly/PlanningProgress
+
+
 - Baharuddin Nur Maulana
 - Gahri Rafli
 1. GitHub Repository
@@ -43,6 +48,3 @@ Mini Project Team :
       - Monitoring tools for performance tracking
 8. Conclusion
    The mini project successfully implemented the requested features, ensuring reliability, scalability, and ease of deployment. The documentation provides a comprehensive    overview of the project, its libraries, and additional features
-
-
-
