@@ -21,6 +21,11 @@ Mini Project Team :
    Automated the build process, testing, and deployment to Kubernetes.
    - Kubernetes
    Deployed the application on Kubernetes for scalability and ease of management.
+   - Postman Testing
+   Connected the application to the internet for testing via Postman.
+   - Zabbix
+   Utilized Zabbix for monitoring various aspects of the application.
+
 7. Documentation
    - List of Libraries Used
    Listed below are the key libraries used in the project:
