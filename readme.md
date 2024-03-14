@@ -1,7 +1,7 @@
 Mini Project of System Engineering - Application Development Report
-Mini Project Team :
-- Baharuddin Nur Maulana
-- Gahri Rafli
+   Mini Project Team :
+   - Baharuddin Nur Maulana
+   - Gahri Rafli
 1. GitHub Repository
    https://github.com/maulanabn/flask-api-miniproject-syseng
 2. IP Host Kubernetes
