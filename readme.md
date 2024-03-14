@@ -38,7 +38,7 @@ Mini Project Team :
    d. GitHub Actions: CI/CD automation
    e. Kubernetes: Container orchestration
    f. Zabbix: Monitoring tool
-- Additional Features
+   - Additional Features
    a. Anonymous review system with IP and user agent recording
    b. Detailed Pokemon information including categories (water, fire, neutral, etc.)
    c. Comprehensive unit tests for robustness
